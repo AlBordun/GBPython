@@ -20,3 +20,12 @@ def sum(A,B):
 A = int(input("A=: "))
 B = int(input("B=: "))
 print(sum(A,B))
+
+
+def fib(N):
+    if N == 0 or N == 1:
+        return 1
+    return fib(N - 1) + fib(N - 2)
+
+F = int(input("N:"))
+print(fib(F))
