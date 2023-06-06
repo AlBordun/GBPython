@@ -35,11 +35,6 @@ menu_delete_conformation = {
     2: 'No',
     3: 'Go back!'
 }
-# THIS code works not as inspected - the keys from menu_items is used as addresses 
-# while iterator goes over second collection!!!!
-# def print_menu(menu_items_f):
-#     for key in menu_items_f.keys():
-#         print(key, ' - ', menu_items[key])
 
 def print_menu(menu_items_f):
     for key, value in menu_items_f.items():
